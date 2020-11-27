@@ -1,0 +1,7 @@
+1. copy dtbo to /boot/firmware/overlays
+2. copy usercfg.txt /boot/firmware
+3. sync && reboot
+
+Note: ds2482-100 1-wire bridge drivers should be loaded manually as below
+modprobe ds2482
+

@@ -1,0 +1,10 @@
+# Place "config.txt" changes (dtparam, dtoverlay, disable_overscan, etc.) in
+# this file. Please refer to the README file for a description of the various
+# configuration files on the boot partition.
+
+dtoverlay=i2c-gpio,bus=5,i2c_gpio_delay_us=1,i2c_gpio_sda=12,i2c_gpio_scl=13
+dtoverlay=i2c-rtc,abx80x
+dtoverlay=spi1-3cs
+dtoverlay=enc28j60
+dtoverlay=jedec-spi-nor,flash-spi0-1
+~
